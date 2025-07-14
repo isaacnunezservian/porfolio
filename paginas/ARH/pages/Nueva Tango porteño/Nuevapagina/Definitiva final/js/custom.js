@@ -7,13 +7,12 @@ const playBtnContainer = document.getElementById('botonplay');
 // Evento para manejar el clic en el botón de reproducción
 playBtnContainer.addEventListener('click', (e) => {
   e.preventDefault(); // Evitar que el enlace recargue la página
-  console.log('Hola');
 
   // Ocultar el botón de reproducción y la imagen del poster
   playBtnContainer.style.display = 'none';
   poster.style.display = 'none';
 
-  // Mostrar el video y comenzar la reproducción
+  // Mostrar el iframe y ponerle el src de YouTube con autoplay
+  video.src = "https://www.youtube.com/embed/DZXX2O2s7Mw?autoplay=1";
   video.style.display = 'block';
-  video.play();
 });

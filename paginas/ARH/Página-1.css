@@ -1,0 +1,305 @@
+/* html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+} */
+
+
+/* Edición de Transición */
+
+
+
+
+/* Difuminado en la parte superior */
+.about-section-1 {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Pseudo-elemento para el difuminado */
+.about-section-1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px; /* Ajusta según la intensidad del difuminado */
+  background: linear-gradient(to bottom, rgba(12, 12, 12, 0.5)
+  , rgba(76, 63, 48,0)); /* Cambia los colores según tu diseño */
+  z-index: 1;
+  
+}
+
+/* Aseguramos que el contenido esté encima del difuminado */
+.about-sheet-1 {
+  position: relative;
+  z-index: 2;
+}
+
+
+
+
+
+
+
+/* Edición del hero titulo fondo logo etc */
+#titu{
+  position: relative;
+  font-family: Poppins;
+  color: #d9d9d9; 
+  font-weight: 200 !important;
+  font-size: 3rem !important;  
+  /* letter-spacing: 4px !important; */
+  
+}
+
+#titu SPAN{
+  color: #17bebb;
+  font-family:Allura;
+  font-size: 4.8rem;
+  
+}
+
+
+
+@media (max-width: 540px) {
+  #nave img{
+
+    width: 200px;
+    margin-top: 0px;
+  }
+
+  #hero {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Fotoicnica.jpg");
+    background-size: cover;
+   background-position: 15% 20%, 15% 1%; 
+    min-height: 100vh;
+
+}
+
+
+#titu{ 
+  letter-spacing: 3px;
+  font-size: 5rem;
+  font-weight: 560 ;
+}
+ }
+
+ 
+ @media (min-width: 541px) and (max-width: 768px) {
+  #nave img{
+
+    width: 200px;
+    margin-top: 0px;
+  }
+
+  #hero {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Fotoicnica.jpg");
+    background-size: cover;
+    /* background-position: 20% 20%, 14% 1%;  */
+    min-height: 100vh;
+
+}
+
+#titu{ 
+  letter-spacing: 3px;
+  font-size: 5rem;
+  font-weight: 530 ;
+}
+ }
+
+
+  
+ @media (min-width: 769px) and (max-width: 922px) {
+  #nave img{
+
+    width: 200px;
+    margin-top: 0px;
+  }
+
+  #hero {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Fotoicnica.jpg");
+    background-size: cover;
+    background-position: 20% 20%, 14% 1%; 
+    min-height: 100vh;
+
+}
+#titu{ 
+  letter-spacing: 3px;
+  font-size: 5.5rem;
+  font-weight: 530 ;
+}
+ }
+
+ @media (min-width: 922px) and (max-width: 1200px) {
+  #nave img{
+
+    width: 250px;
+    margin-top: 0px;
+  }
+
+  #hero {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Fotoicnica.jpg");
+    background-size: cover;
+    /* background-position: 20% 20%, 14% 1%;  */
+    min-height: 100vh;
+
+}
+
+#titu{
+  letter-spacing: 3px;
+  font-size: 5.5rem;
+  font-weight: 550 ;
+}
+
+
+ }
+
+
+ @media (min-width: 1200px) and (max-width: 1300px) {
+
+  #nave img{
+
+    width: 250px;
+    margin-top: -10px;
+  }
+
+  #hero {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Fotoicnica.jpg");
+    background-size: cover;
+    /* background-position: 20% 20%, 14% 1%;  */
+    min-height: 100vh; 
+    width: 100%;
+}
+
+#titu{
+  letter-spacing: 5px;
+  font-size: 6rem;
+  font-weight: 580 ;
+  opacity: 0.97;
+  margin-top: 4.5rem;
+}
+
+
+}
+
+
+ @media (min-width: 1301px) and (max-width: 2000px) {
+  #nave img{
+
+    width: 350px;
+    margin-top: 0px;
+  }
+
+  #hero {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Fotoicnica.jpg");
+    background-size: cover;
+    /* background-position: top left;  */
+      min-height: 100vh;
+    width: 100%;
+}
+#titu{
+  letter-spacing: 6px;
+  font-size: 7.5rem;
+  font-weight: 550 ;
+  
+}
+
+ }
+
+
+
+
+ @media (min-width: 2001px) {
+  #nave img{
+
+    width: 350px;
+    margin-top: 0px;
+  }
+
+  #hero {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Fotoicnica.jpg");
+    background-size: cover;
+    background-position: top left; 
+    min-height: 100vh;
+
+}
+#titu{
+  letter-spacing: 7px;
+  font-size: 8rem;
+  font-weight: 590 ;
+  
+}
+
+ }
+
+
+
+#about {
+  background-image: url("images/aboutus2.png");
+  background-position: 50% 50%;
+}
+
+#about .about-sheet-1 {
+  min-height: 500px;
+}
+
+#about .about-text-1 {
+  font-style: normal;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  width: 609px;
+  font-family: Poppins;
+  margin: 60px auto 0;
+}
+
+#about .about-text-2 {
+  font-size: 9.375rem;
+  letter-spacing: 8px;
+  font-weight: 300;
+  font-family: Allura;
+  margin: 0 auto 60px;
+}
+
+
+
+
+@media (max-width: 1199px) {
+  #about .about-text-2 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  #about {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 767px) {
+  #about .about-text-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  #about .about-text-1 {
+    width: 340px;
+  }
+
+  #about .about-text-2 {
+    font-size: 6rem;
+    margin-top: 0;
+  }
+}
+
+@font-face {
+  font-family: 'texgyretermes-regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/texgyretermes-regular.otf);
+}

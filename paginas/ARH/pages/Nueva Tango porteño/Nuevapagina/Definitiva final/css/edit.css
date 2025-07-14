@@ -1,0 +1,56 @@
+.header_section a{
+    color: white;
+}
+
+
+#tituloabout{
+    font-family: Allura;
+    color: #17BEBB;  ;
+    
+}
+
+#parrafoabout{
+    color: #FFFFFF;
+  font-family: Poppins;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+
+.gallery_section  #galeriatitulo{
+
+    font-family: Allura;
+    color: #17BEBB; ;
+    font-size: 2rem;
+}
+
+
+.gallery_section  #galeriatexto{
+    color: #FFFFFF;
+     font-family: Poppins;
+    font-size: 15px;
+     line-height: 1.5;
+}
+
+
+#descriconteiner .primerdescri{
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+
+ #produconteiner #produtitulos{
+    font-family: Allura;
+    color: #17BEBB;  
+    font-size: 3rem;
+ }
+
+
+ #produconteiner .produh3{
+    font-family: Allura;
+    font-weight: lighter;
+    font-size: 2rem;
+    color: #d9d9dd;
+ }
